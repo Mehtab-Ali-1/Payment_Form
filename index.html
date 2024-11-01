@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="card">Card payment</div> <hr>
+             <!-- for card number -->
+            <div class="cardnum">Card number</div>
+            <input class="inputnum" type="number" placeholder="4242 4242 4242 4242" required>
+            <!--  for expiry date line -->
+            <div class="date">
+                <div class="box1">
+                    <p class="typing">Expiry date</p>
+                    <input class="dateinput" type="date" placeholder="MM/YY" >
+                </div>
+                <div class="box2">
+                    <p class="typing">cvv</p>
+                    <input class="dateinput" type="number" placeholder="123" >
+                </div>
+                <div class="box3">
+                    <p class="typing">zip code</p>
+                    <input class="dateinput" type="number" placeholder="12345" >
+                </div>
+            </div>
+             <!-- for checkbox -->
+            <input class="lastLine" type="checkbox" name="lastline" placeholder="none">
+            <label class="lastLine" for="lastline">Recieve a copy of the receipt in your inbox?</label> <br>
+            <div class="bo">
+            <button type="button" class="button1">Pay</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
